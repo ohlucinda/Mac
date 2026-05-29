@@ -15,30 +15,6 @@ body {
   background: white;
 }
 
-.dtp-body {
-
-  height: 100vh;
-  overflow: hidden;
-
-}
-
-.page-wrap {
-
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-
-}
-
-.main-area {
-
-  flex: 1;
-
-  overflow-y: auto;
-
-}
-
 main {
   max-width: 680px;
   margin: 0 auto;
