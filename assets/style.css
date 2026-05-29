@@ -70,6 +70,8 @@ details {
   margin-bottom: 100px;
 
   letter-spacing: 0.02em;
+
+  transform: translateY(-20px);
 }
 
 summary {
