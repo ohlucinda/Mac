@@ -1,0 +1,163 @@
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  color: #111;
+  font-size: 18px;
+  font-family: system-ui, sans-serif;
+
+  background: white;
+}
+
+.dtp-body {
+
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.page-wrap {
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main-area {
+
+  flex: 1;
+
+  overflow-y: auto;
+
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 80px 24px;
+
+  line-height: 2.4;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #888;
+}
+
+details {
+  margin-bottom: 24px;
+}
+
+.site-header {
+  font-family: "jimbo-std-expanded", sans-serif;
+
+  font-size: 42px;
+  text-align: center;
+
+  margin-bottom: 100px;
+
+  letter-spacing: 0.02em;
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: "⌵";
+  display: inline-block;
+  margin-right: 10px;
+
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(180deg);
+}
+
+details div {
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+.post-nav {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  font-size: 19px;
+}
+
+.post-nav a {
+  color: #111;
+  text-decoration: none;
+}
+
+.footer {
+
+  text-align: center;
+  font-family: serif;
+  color: black;
+
+  width: 100%;
+
+  line-height: 1.6;
+
+  padding-bottom: 38px;
+
+}
+
+.post-footer {
+  margin-top: 60px !important;
+}
+
+.touch {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.part {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.links {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.copyright {
+  font-size: 13px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+  margin: 60px 0;
+}
