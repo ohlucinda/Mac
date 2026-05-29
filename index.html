@@ -15,7 +15,9 @@ layout: home
 <details>
   <summary>{{ month.name }}</summary>
 
-  {% for post in month.items %}
+  {% assign sorted_posts = month.items | reverse %}
+
+  {% for post in sorted_posts %}
     <div>
       <a href="{{ post.url | relative_url }}">
         {{ post.title }}
