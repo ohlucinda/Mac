@@ -171,3 +171,13 @@ img {
   padding-top: 40px;
 
 }
+
+/* iPad */
+
+@media (min-width: 768px) and (max-width: 1366px) {
+
+  .footer {
+    padding-bottom: 20px;
+  }
+
+}
