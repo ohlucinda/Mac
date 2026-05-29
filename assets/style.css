@@ -15,16 +15,9 @@ body {
 
   background: white;
 
-  min-height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-
 }
 
 main {
-
-  flex: 1;
 
   max-width: 680px;
 
@@ -142,7 +135,6 @@ details div {
 
   line-height: 1.6;
 
-  padding-top: 40px;
   padding-bottom: 38px;
 
 }
@@ -194,19 +186,41 @@ img {
 
 }
 
-/* iPad */
+/* iPad 縦 */
 
-@media (min-width: 768px) and (max-width: 1366px) {
-
-  main {
-
-    flex: unset;
-
-  }
+@media (min-width: 768px)
+and (max-width: 1023px)
+and (orientation: portrait) {
 
   .footer {
 
-    padding-bottom: 20px;
+    margin-top: 400px;
+
+  }
+
+}
+
+/* iPad 横 */
+
+@media (min-width: 768px)
+and (max-width: 1366px)
+and (orientation: landscape) {
+
+  .footer {
+
+    margin-top: 80px;
+
+  }
+
+}
+
+/* Mac */
+
+@media (min-width: 1024px) {
+
+  .footer {
+
+    margin-top: 520px;
 
   }
 
