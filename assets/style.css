@@ -198,6 +198,31 @@ and (orientation: portrait) {
 
 
 
+/* iPad 縦 */
+
+@media (min-width: 768px)
+and (max-width: 1024px)
+and (orientation: portrait) {
+
+  .dtp-body {
+
+    height: 100vh;
+    overflow: auto;
+
+  }
+
+  .footer {
+
+    padding-bottom: 20px;
+
+    transform: translateY(-40px);
+
+  }
+
+}
+
+
+
 /* iPad 横 */
 
 @media (min-width: 768px)
@@ -212,13 +237,11 @@ and (orientation: landscape) {
   }
 
   .footer {
+
     padding-bottom: 20px;
+
+    transform: translateY(-40px);
+
   }
-
-  .page-wrap {
-
-  padding-bottom: 80px;
-
-}
 
 }
