@@ -49,12 +49,6 @@ details {
 
 }
 
-.bookmark-group {
-
-  flex: 1;
-
-}
-
 .site-header {
 
   font-family: "jimbo-std-expanded", sans-serif;
@@ -389,17 +383,5 @@ and (orientation: landscape) {
     margin-top: 300px;
 
   }
-
-}
-
-.bookmarks-page {
-
-  min-height: calc(100vh - 550px);
-
-  display: flex;
-
-  flex-direction: column;
-
-    padding-left: 80px;
 
 }
