@@ -9,7 +9,8 @@ permalink: /bookmarks/
 <img class="bookmark-image" src="{{ '/images/gem-img.jpg' | relative_url }}" alt="">
 
 <img class="bookmark-image" src="{{ '/images/unsplash-img.jpg' | relative_url }}" alt="">
-<br><br><br>
+
+<br><br>
 
  <details class="bookmark-group">
 
