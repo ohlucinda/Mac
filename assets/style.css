@@ -160,11 +160,14 @@ and (orientation: landscape) {
 summary {
 
   list-style: none;
+
   cursor: pointer;
 
-  font-size: 24px;
+  font-family: "jimbo-std-expanded", sans-serif;
 
-  letter-spacing: -0.02em;
+  font-size: 16px;
+
+  letter-spacing: 0.02em;
 
   margin-bottom: 24px;
 
