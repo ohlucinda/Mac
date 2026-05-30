@@ -71,7 +71,7 @@ details {
 
   top: 40px;
 
-  right: 40px;
+  left: 40px;
 
 }
 
@@ -203,7 +203,7 @@ summary {
 
   font-family: "jimbo-std-expanded", sans-serif;
 
-  font-size: 16px;
+  font-size: 18px;
 
   letter-spacing: 0.02em;
 
