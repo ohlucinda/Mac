@@ -8,10 +8,10 @@ permalink: /bookmarks/
 
 <a href="https://lyrics.ohlucinda.com">Lyrics</a>
 <img class="bookmark-image" src="{{ '/images/lyrics-img.jpg' | relative_url }}" alt="">
-<br><br><br
+<br><br>
 <a href="https://gem.ohlucinda.com">Photos and Words</a>
 <img class="bookmark-image" src="{{ '/images/gem-img.jpg' | relative_url }}" alt="">
-<br><br><br>
+<br><br>
 <a href="https://unsplash.com/@ohlucinda">Images</a>
 <img class="bookmark-image" src="{{ '/images/unsplash-img.jpg' | relative_url }}" alt="">
 
