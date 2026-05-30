@@ -394,6 +394,8 @@ and (orientation: landscape) {
 
   max-width: 240px !important;
 
+  display: block;
+
   height: auto !important;
 
   margin: 0 !important;
