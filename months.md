@@ -13,13 +13,13 @@ title: Months
 
 <div class="writes-index">
 
-{% for month in posts_by_month reversed %}
+{% for group in posts_by_month reversed %}
 
 <details>
 
-  <summary>{{ month.name }}</summary>
+  <summary>{{ group.name }}</summary>
 
-  {% assign sorted_posts = month.items | reverse %}
+  {% assign sorted_posts = group.items | reverse %}
 
   {% for post in sorted_posts %}
 
