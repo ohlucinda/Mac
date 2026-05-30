@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<header class="site-header">
-
-  About
-
-</header>
-
 <br><br>
 I am a lyricist.   
 The music is not created by me alone.  
