@@ -105,6 +105,12 @@ and (orientation: portrait) {
 and (max-width: 1366px)
 and (orientation: landscape) {
 
+  .site-header {
+
+    margin-bottom: 40px;
+
+  }
+
   .top-nav {
 
     margin-top: 60px;
