@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Months
+permalink: /months/
 ---
 
 <header class="site-header">
