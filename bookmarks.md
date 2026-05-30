@@ -1,3 +1,9 @@
+---
+layout: default
+title: Bookmarks
+permalink: /bookmarks/
+---
+
 <details class="bookmark-group">
 
   <summary>
