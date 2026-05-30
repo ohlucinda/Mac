@@ -23,8 +23,8 @@ But before all of that, there is something I want to create.
 My music begins with words.  
 Rather than treating imperfection or unpredictability as errors, I embrace them as entrances into new forms of expression.  
 Using evolving vocal personas such as Jem and An, I create songs that move between psychedelic textures, fragile emotional landscapes, punk spirit, folk narratives, and dreamlike atmospheres.  
-<br><br><br>
+<br><br>
 My process is deeply hands-on: shaping structure, editing, mixing, mastering, visual direction, and release.   
-<br><br><br>
+<br><br>
 For me, creativity is not about perfect control, but about discovering what appears through friction, drift, and unexpected resonance.  
 <br><br>
