@@ -1,3 +1,16 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+<header class="site-header">
+
+  About
+
+</header>
+
+
 I am a lyricist.   
 The music is not created by me alone.  
 I entrust it to something other than myself — not a person, but AI.  
