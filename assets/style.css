@@ -385,4 +385,15 @@ and (orientation: landscape) {
   }
 
 }
-css id="a2" .bookmark-image {    width: 60px;    height: auto;  } 
+
+.bookmark-image {
+
+  width: 60px !important;
+
+  height: auto !important;
+
+  display: block;
+
+  margin: 0;
+
+}
