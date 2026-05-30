@@ -49,14 +49,6 @@ details {
 
 }
 
-.bookmarks-page {
-
-  display: flex;
-
-  gap: 24px;
-
-}
-
 .bookmark-group {
 
   flex: 1;
