@@ -401,3 +401,9 @@ and (orientation: landscape) {
   margin: 0 !important;
 
 }
+
+.bookmarks-column {
+
+  max-width: 420px;
+
+}
