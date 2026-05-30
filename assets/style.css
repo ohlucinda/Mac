@@ -222,7 +222,7 @@ and (orientation: portrait) {
 
   .footer {
 
-    margin-top: 380px;
+    margin-top: 320px;
 
   }
 
@@ -236,7 +236,7 @@ and (orientation: landscape) {
 
   .footer {
 
-    margin-top: 10px;
+    margin-top: 0;
 
   }
 
