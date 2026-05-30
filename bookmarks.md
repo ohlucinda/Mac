@@ -8,10 +8,10 @@ permalink: /bookmarks/
 
 Lyrics  
 <img class="bookmark-image" src="{{ '/images/lyrics-img.jpg' | relative_url }}" alt="">
-<br><br>
+<br><br><br><br><br>
 Phots and Words  
 <img class="bookmark-image" src="{{ '/images/gem-img.jpg' | relative_url }}" alt="">
-<br><br>
+<br><br><br><br><br>
 Unsplash  
 <img class="bookmark-image" src="{{ '/images/unsplash-img.jpg' | relative_url }}" alt="">
 
