@@ -390,10 +390,14 @@ and (orientation: landscape) {
 
   width: 60px !important;
 
+  min-width: 60px !important;
+
+  max-width: 60px !important;
+
   height: auto !important;
 
-  display: block;
+  display: inline-block;
 
-  margin: 0;
+  margin: 0 !important;
 
 }
