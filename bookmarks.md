@@ -4,6 +4,13 @@ title: Bookmarks
 permalink: /bookmarks/
 ---
 
+<img src="{{ '/images/lyrics-img.jpg' | relative_url }}" alt="">
+
+<img src="{{ '/images/gem-img.jpg' | relative_url }}" alt="">
+
+<img src="{{ '/images/unsplash-img.jpg' | relative_url }}" alt="">
+<br><br><br>
+
  <details class="bookmark-group">
 
   <summary>
