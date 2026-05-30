@@ -4,10 +4,6 @@ title: Bookmarks
 permalink: /bookmarks/
 ---
 
-<div class="bookmarks-page">
-
-<details class="bookmark-group">
-
   <summary>
 
     Apple Music
@@ -87,5 +83,3 @@ permalink: /bookmarks/
   </div>
 
 </details>
-
-</div>
