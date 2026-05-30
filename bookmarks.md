@@ -6,10 +6,13 @@ permalink: /bookmarks/
 
 <div class="bookmarks-column">
 
+Lyrics  
 <img class="bookmark-image" src="{{ '/images/lyrics-img.jpg' | relative_url }}" alt="">
 
+Phots and Words  
 <img class="bookmark-image" src="{{ '/images/gem-img.jpg' | relative_url }}" alt="">
 
+Unsplash  
 <img class="bookmark-image" src="{{ '/images/unsplash-img.jpg' | relative_url }}" alt="">
 
 <br><br>
