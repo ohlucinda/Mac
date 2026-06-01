@@ -422,3 +422,8 @@ and (orientation: landscape) {
   padding-left: 56px;
 
 }
+body:has(.bookmarks-column) .post-nav {
+
+  margin-top: -20px;
+
+}
