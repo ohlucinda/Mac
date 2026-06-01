@@ -4,7 +4,19 @@ title: Bookmarks
 permalink: /bookmarks/
 ---
 
-<div class="bookmarks-column">
+<div style="margin-top: -40px;">
+
+  <div class="months-back">
+    <a href="{{ '/' | relative_url }}">
+      &lt; back
+    </a>
+  </div>
+
+  <div class="site-header" style="margin-bottom: 20px;">
+    Bookmarks
+  </div>
+
+  <div class="bookmarks-column">
 
 <a class="bookmark-main-link" href="https://lyrics.ohlucinda.com" target="_blank">
   Lyrics</a>
@@ -20,8 +32,7 @@ permalink: /bookmarks/
 </a>
 <img class="bookmark-image" src="{{ '/images/unsplash-img.jpg' | relative_url }}" alt="">
 
-
-<br><br>
+<br>
 
  <details class="bookmark-group">
 
@@ -110,5 +121,7 @@ permalink: /bookmarks/
   </div>
 
 </details>
+
+</div>
 
 </div>
