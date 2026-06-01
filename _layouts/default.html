@@ -54,9 +54,19 @@ and page.url != "/bookmarks/" %}
     </a>
   {% endif %}
 
+  {% if page.url == "/about/" or page.url == "/bookmarks/" or page.url == "/months/" %}
+
+  <a href="{{ '/' | relative_url }}">
+    home
+  </a>
+
+{% else %}
+
   <a href="{{ '/months/' | relative_url }}">
-  months
-</a>
+    months
+  </a>
+
+{% endif %}
 
   {% if page.next.url %}
     <a href="{{ page.next.url | relative_url }}">
