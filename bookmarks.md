@@ -31,7 +31,7 @@ permalink: /bookmarks/
   Images
 </a>
 <img class="bookmark-image" src="{{ '/images/unsplash-img.jpg' | relative_url }}" alt="">
-
+<br><br>
 <br>
 
  <details class="bookmark-group">
