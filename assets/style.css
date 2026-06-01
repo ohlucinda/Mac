@@ -402,28 +402,3 @@ and (orientation: landscape) {
 
 }
 
-.bookmarks-column {
-
-  padding-left: 120px;
-
-}
-.bookmarks-column {
-
-  font-family: "jimbo-std-expanded", sans-serif;
-
-}
-.bookmark-links div {
-
-  font-size: 16px;
-
-}
-.bookmark-links {
-
-  padding-left: 56px;
-
-}
-body:has(.bookmarks-column) .post-nav {
-
-  margin-top: -20px;
-
-}
