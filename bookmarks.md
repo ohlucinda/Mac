@@ -6,14 +6,20 @@ permalink: /bookmarks/
 
 <div class="bookmarks-column">
 
-<a href="https://lyrics.ohlucinda.com" target="_blank">Lyrics</a>
+<a class="bookmark-main-link" href="https://lyrics.ohlucinda.com" target="_blank">
+  Lyrics</a>
 <img class="bookmark-image" src="{{ '/images/lyrics-img.jpg' | relative_url }}" alt="">
 <br><br>
-<a href="https://gem.ohlucinda.com" target="_blank">Photos and Words</a>
+<a class="bookmark-main-link" href="https://gem.ohlucinda.com" target="_blank">
+  Photo and Words
+</a>
 <img class="bookmark-image" src="{{ '/images/gem-img.jpg' | relative_url }}" alt="">
 <br><br>
-<a href="https://unsplash.com/@ohlucinda" target="_blank">Images</a>
+<a class="bookmark-main-link" href="https://unsplash.com/@ohlucinda" target="_blank">
+  Images
+</a>
 <img class="bookmark-image" src="{{ '/images/unsplash-img.jpg' | relative_url }}" alt="">
+
 
 <br><br>
 
