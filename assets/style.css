@@ -401,4 +401,24 @@ and (orientation: landscape) {
   margin: 0 !important;
 
 }
+.bookmarks-column {
+
+  padding-left: 120px;
+
+}
+.bookmarks-column {
+
+  font-family: "jimbo-std-expanded", sans-serif;
+
+}
+.bookmark-links div {
+
+  font-size: 16px;
+
+}
+.bookmark-links {
+
+  padding-left: 56px;
+
+}
 
