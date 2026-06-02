@@ -1,2 +1,5 @@
 url: "https://ohlucinda.com"
 baseurl: ""
+
+plugins:
+  - jekyll-sitemap
