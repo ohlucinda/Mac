@@ -447,3 +447,19 @@ and (orientation: landscape) {
   }
 
 }
+
+@media (min-width: 1024px) {
+
+  .writes-index {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 120px;
+
+    align-items: start;
+
+  }
+
+}
