@@ -25,7 +25,7 @@ const isPhone = /iPhone|Android.+Mobile/.test(navigator.userAgent);
 
 if (isPhone) {
 
-  window.location.href = "about:blank";
+  document.documentElement.style.display = "none";
 
 }
 
