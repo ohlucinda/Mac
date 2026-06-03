@@ -40,17 +40,25 @@ layout: null
         https://ohlucinda.com{{ post.url }}
       </link>
 
-      <description>
-<![CDATA[
-{% if post.image %}
-<img src="https://example.com/images/{{ post.image }}" />
-{% endif %}
 
-{{ post.content | strip_html | truncate: 200 }}
-]]>
-</description>
+  <item>
 
-    </item>
+  <title>{{ post.title }}</title>
+
+  <link>...</link>
+
+   <media:content
+   url="https://サイト/images/{{ post.image }}"
+   medium="image" />
+
+  <description>
+  <![CDATA[
+  <img src="https://サイト/images/{{ post.image }}" />
+  {{ post.content | strip_html | truncate: 200 }}
+  ]]>
+  </description>
+
+ </item>
 
     {% endfor %}
 
