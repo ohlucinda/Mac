@@ -3,3 +3,4 @@ baseurl: ""
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
