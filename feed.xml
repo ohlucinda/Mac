@@ -41,8 +41,14 @@ layout: null
       </link>
 
       <description>
-        {{ post.excerpt | strip_html | strip_newlines }}
-      </description>
+<![CDATA[
+{% if post.image %}
+<img src="https://example.com/images/{{ post.image }}" />
+{% endif %}
+
+{{ post.content | strip_html | truncate: 200 }}
+]]>
+</description>
 
     </item>
 
