@@ -5,7 +5,13 @@
   <link rel="stylesheet" href="https://use.typekit.net/qsa5fag.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{{ page.title }} | OHLUCINDA</title>
+  <title>
+{% if page.title %}
+{{ page.title }} | OHLUCINDA
+{% else %}
+OHLUCINDA
+{% endif %}
+</title>
 
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
   <link rel="icon" href="/images/favicon.ico">
