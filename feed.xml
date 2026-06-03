@@ -51,7 +51,7 @@ layout: null
    url="https://ohlucinda.com/images/{{ post.image }}"
    medium="image" />
 
-  <description>
+<description>
 <![CDATA[
 {% if post.image %}
 <img src="https://ohlucinda.com/images/{{ post.image }}" />
